@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1vh;
+    /* max-height: 100vh; */
+    /* width: 100vw; */
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    max-height: 80vh;
+    max-width: 40%;
+    background-color: hsl(0, 0%, 100%);
+    border-collapse: collapse;
+    border-radius: 15px;
+}
+.leftPanel {
+    max-height: 100%;
+    width: 55%;
+}
+.leftPanel img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.rightPanel {
+    max-height: 100%;
+    width: 45%;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1vh 2.5vh 1vh 2.5vh;
+    border-radius: 15px;
+}
+.category {
+    height: 10%;
+    width: 100%;
+    text-align: left;
+    color: hsl(228, 12%, 48%);
+    font-size: 1.6vh;
+}
+.header {
+    width: 100%;
+    height: 20%;
+    text-align: left;
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    font-size: 2.7vh;
+}
+.description {
+    height: 40%;
+    width: 100%;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.1vh;
+    font-size: 2.2vh;
+}
+.price {
+    height: 15%;
+    width: 100%;
+    text-align: left;
+    color: hsl(158, 36%, 37%);
+    font-size: 3.5vh;
+    font-weight: 700;
+}
+.oldPrice {
+    color: black;
+    font-size: 1.8vh;
+    font-weight: 100;
+}
+.addToCart {
+    text-align: center;
+    margin: auto;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 60%;
+    height: 15%;
+    border: none;
+    border-radius: 15px;
+    font-size: 2vh;
+    transition: background-color 0.3s ease;
+}
+.addToCart:hover {
+    background-color: hsl(158, 37%, 28%);
+}
+.addToCart img {
+    width: 1.5vw;
+    height: 1.5vh;
+}
