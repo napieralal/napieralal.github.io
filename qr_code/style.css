@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    width: 100vw;
+}
+.container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25rem;
+    height: 33rem;
+    padding: 0.5rem 0.3rem 0.1rem 0.3rem;
+    border-radius: 4%;
+}
+.img {
+    height: 70%;
+    width: 85%;
+    border-radius: 4%;
+}
+.text1 {
+    margin: 1rem;
+    float: left;
+    max-width: 85%;
+    font-weight: bolder;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.text2 {
+    margin: 0.5rem;
+    float: left;
+    max-width: 85%;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
