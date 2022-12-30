@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url(./images/bg-desktop.svg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    font-size: 16px;
+}
+.container {
+    margin: 0;
+    padding: 0vh 4.5vw 0vh 4.5vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-collapse: collapse;
+}
+.logo {
+    display: flex;
+    height: auto;
+    /* width: 100%; */
+    /* margin-bottom: 5vh; */
+}
+.logo img {
+    width: 8.2vw;
+}
+.center {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.image {
+    /* height: auto; */
+    width: 55%;
+}
+.image img {
+    width: 95%;
+    height: 100%;
+}
+.content {
+    margin-top: 8vh;
+    float: right;
+    width: 45%;
+}
+.social {
+    position: absolute;
+    bottom: 2vh;
+    right: 1vw;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    text-align: right;
+    padding-right: 7vw;
+    color: white;
+}
+.social div a {
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 0.06rem solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.6rem;
+    color: #fff;
+}
+.social div a:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+.header {
+    font-size: 5vh;
+    margin: 0;
+    margin-bottom: 2vh;
+    font-family: "Poppins", sans-serif;
+}
+.description {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 2.5vh;
+    color: rgb(206, 203, 203);
+    font-family: "Poppins", sans-serif;
+    line-height: 130%;
+}
+.but {
+    height: 6vh;
+    width: 10vw;
+    border-radius: 15vh;
+    font-size: 2vh;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 0.5vh 1vh 1vh rgb(37, 37, 37);
+}
+.but:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    box-shadow: 0.5vh 1vh 1vh rgb(37, 37, 37);
+}
